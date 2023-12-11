@@ -10,15 +10,15 @@ public class Bob {
             return;
         }
 
-            int howLong = theQ.length();
-            int howLongIndexed = howLong - 1;
-            char whatIsIt = theQ.charAt(howLongIndexed);
-            String addSpace = whatIsIt + " ";
+        int howLong = theQ.length();
+        int howLongIndexed = howLong - 1;
+        char whatIsIt = theQ.charAt(howLongIndexed);
+        String addSpace = whatIsIt + " ";
 
-            if (addSpace.equals("? ")) {
-                System.out.println("Sure.");
-            } else if (addSpace.equals("! ")) {
-                System.out.println("Whoa, chill out!");
-            } else System.out.println("Whatever.");
+        if (addSpace.equals("? ")) {
+            System.out.println("Sure.");
+        } else if (addSpace.equals("! ")) {
+            System.out.println("Whoa, chill out!");
+        } else System.out.println("Whatever.");
     }
 }
